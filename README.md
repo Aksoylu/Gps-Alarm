@@ -1,7 +1,7 @@
 # GpsAlarm
 
 <p align="center">
-  <img src=""/>
+  <img src="/assets/icon.png"/>
 </p>
 
 GPS based alarm system. Wakes you up when you entered a marked area that you drawed.
