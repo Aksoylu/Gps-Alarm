@@ -4,8 +4,7 @@
   <img src="/assets/icon.png"/>
 </p>
 
-GPS based alarm system. Wakes you up when you entered a marked area that you drawed.
-
+GPS based alarm system. It wakes you up when you enter a marked area you have drawn.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
