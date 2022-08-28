@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:geocoder/geocoder.dart';
+import 'package:gpsalarm/widgets/map_mark.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
@@ -254,7 +255,9 @@ class _MapPage extends State<MapPage> {
               point: LatLng(39.990429,  32.695545),
               builder: (ctx) =>
                   Container(
-                      child: Text("Place alarm card here ")
+                      child: MapAlarmCard(
+                         details: const {"a" : "b" },
+                      ),
                   ),
             ),
 
@@ -265,7 +268,7 @@ class _MapPage extends State<MapPage> {
   }
 
 
-  void showActionSheet(notification_data) {
+  void showActionSheet(otification_data) {
     showCupertinoModalPopup<void>(
       context: this.context,
       builder: (BuildContext context) => CupertinoActionSheet(
@@ -301,6 +304,7 @@ class _MapPage extends State<MapPage> {
       ),
     );
   }
+
 
 
 }

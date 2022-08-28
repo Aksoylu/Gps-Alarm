@@ -1,0 +1,2 @@
+
+export 'src/widget.dart';

@@ -2,16 +2,13 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:gpsalarm/menu.dart';
 import 'package:gpsalarm/root/tabs.dart';
 import 'globals.dart';
-import 'menu.dart';
 
 
 /* DO NOT EDIT THIS PAGE */
 
 void main() {
-  GlobalState.mainMenuPage  = MainMenuPage();
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations(
       Variables.landingVertical

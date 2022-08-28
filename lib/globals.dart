@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'root/tabs.dart';
-import 'menu.dart';
 
 
 class Version{
@@ -47,7 +46,6 @@ class Session{
 
 class GlobalState{
 
-  static MainMenuPage mainMenuPage = MainMenuPage();
   static TabsPage tabsPage = const TabsPage();
 
   static var parent;
